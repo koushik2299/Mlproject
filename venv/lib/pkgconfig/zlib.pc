@@ -1,0 +1,13 @@
+prefix=/Users/praneeth/Desktop/Koushik/Mlproject/venv
+exec_prefix=/Users/praneeth/Desktop/Koushik/Mlproject/venv
+libdir=/Users/praneeth/Desktop/Koushik/Mlproject/venv/lib
+sharedlibdir=/Users/praneeth/Desktop/Koushik/Mlproject/venv/lib
+includedir=/Users/praneeth/Desktop/Koushik/Mlproject/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
