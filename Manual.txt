@@ -1,0 +1,11 @@
+Requirments.txt it stores all the required librarires that are need to run the project 
+
+It has "-e ." which initates the setup.py 
+
+Setup.py is a file where it stores all the meta data 
+
+the main functions of setup.py in a machine learning project are:
+
+1.Provide metadata about the project (name, version, author, etc.).
+2.Specify project dependencies.
+3.Define project configurations, such as entry points.
